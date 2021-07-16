@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Current Week</string>
+
+    <string name="activity_a_label">Current Week</string>
+    <string name="activity_b_label">Current Week</string>
+
+    <string name="activity_a">Coloque un número del 1 al 10</string>
+    <string name="btn_1">Comprobar</string>
+    <string name="btn_2">Jugar Otra Vez</string>
+
+</resources>
