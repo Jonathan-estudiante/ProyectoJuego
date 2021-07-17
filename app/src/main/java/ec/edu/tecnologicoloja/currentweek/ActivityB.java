@@ -61,7 +61,7 @@ public class ActivityB extends AppCompatActivity {
                         }else{
                             textoNumero.setText("");
                             Intent intent = new Intent(ActivityB.this, ActivityA.class);
-                            intent.putExtra("dato1","FELICIDADES...");
+                            intent.putExtra("dato1","GANASTE...");
                             startActivity(intent);
                         }
                         if (intentos==0){

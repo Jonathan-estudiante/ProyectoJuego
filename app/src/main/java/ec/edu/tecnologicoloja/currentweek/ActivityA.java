@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -29,6 +30,11 @@ public class ActivityA extends AppCompatActivity{
         Bundle extras = getIntent().getExtras();
         String d1 = extras.getString("dato1");
         textFinal.setText(d1);
+        if (d1.equals("GANASTE...")){
+            textFinal.setTextColor(Color.GREEN);
+        }else{
+            textFinal.setTextColor(Color.RED);
+        }
 
         // Set Listeners
         again.setOnClickListener(new View.OnClickListener() {
